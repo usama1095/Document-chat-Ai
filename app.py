@@ -26,7 +26,7 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY") or st.secrets.get("OPENROUT
 
 # App Header
 st.title("🤖 AI Document Chatbot")
-st.caption("Chat with your PDFs using OpenRouter and local embeddings.")
+st.caption("Created by Rana Usama - Chat with your PDFs using OpenRouter and local embeddings.")
 
 # --- Sidebar for Document Management ---
 st.sidebar.header("📁 Document Management")
